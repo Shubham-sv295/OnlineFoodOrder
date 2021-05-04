@@ -7,7 +7,12 @@ import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
-
+import '../stylesheets/application'
+import './OnlineFoodOrder.js'
+require('imports?this=>window!./app/bower_components/modernizr/modernizr.js');
+import './scripts.js'
+import './sidemenu.js'
+import './waypoints.min.js'
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
